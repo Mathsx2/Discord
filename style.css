@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500&display=swap');
+
+body {
+    background-image: url("IMG/discordd.png");
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.login {
+    background-color: #36393f;
+    display:flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    align-items: center;
+}
+
+.login input {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    width: 500px;
+    height: 40px;
+    background-color: #303338;
+    border-radius: 3px;
+    border-color: rgba(0, 0, 0, 0.87);
+    color:#B9BBBE; 
+}
+
+.um {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.form
+
+.dois {
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+/*CORES DOS TEXTOS*/
+.login h2 {
+    color: #FFFFFF;
+}
+
+.textos{
+    text-align: center;
+}
+
+.login p {
+    color: #B9BBBE;
+}
+
+.login a {
+    color: #00AFF4;
+    text-decoration: none;
+}
+
+button {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #5865F2;
+    color: white;
+    border-style: none;
+    width: 500px;
+    height: 50px;
+    font-size: medium;
+    border-radius: 3px;
+}
+
+.qr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr img {
+    width: 200px;
+}
+
+.qr p {
+    width:300px;
+    text-align: center;
+}
+
+.qr h2 {
+    text-align: center;
+}
